@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+header {
+	  background-image: url('football.jpg');
+      background-color: rgba(133, 188, 94,50);
+      width: 100%;
+      color: white;
+      text-align: center;
+}
+
+header .container p{
+	          position: relative;
+              left:300px;
+}
+
+#services .container img{
+	width: 70px;
+	height: 70px;
+    padding: 10px 10px;
+    transition:1s;
+}
+
+#services .container{
+       display:flex;
+       flex-direction: row;
+}
+
+
+
+#services .container img:hover{
+	transform: scale(1.1);
+}
+#achievments .gallery img{
+	width: 500px;
+	height: 500px;
+}
+#achievments .gallery{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin:10px;
+}
+
+#Project #mywork a{
+	background-color: white;
+	text-decoration: none;
+}
+
+footer .container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+footer .container img{
+	width: 50px;
+	height: 50px;
+	transition:0.5s;
+}
+
+footer .container img:hover{
+	transform: scale(1.05)
+}
+
+#profilePic{
+    position:static;
+    top: 70px;
+    left: 20px;
+    height:500px;
+    width: 350px; 
+    transition:  1s;
+    border-style: solid;border-radius: 5px;
+    border-color: #18573C;
+
+   }
+ #line1{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ }
+
+ #line2{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ }
+
+ #skills .container li{
+ 	font-size: 30px;
+ }
